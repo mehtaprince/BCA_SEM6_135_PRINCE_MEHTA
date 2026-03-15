@@ -1,5 +1,5 @@
 # 💼 Prince Mehta – Developer Portfolio
-![Portfolio Screenshot] (images/portfolio-preview.png)
+![Portfolio Screenshot] (screenshots/portfolio-homepage.png)
 
 This is my personal developer portfolio website built using **PHP, HTML, CSS, and MySQL**.
 It showcases my **projects, skills, achievements, certificates, and resume**.
