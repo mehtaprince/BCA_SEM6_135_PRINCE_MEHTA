@@ -1,44 +1,55 @@
-💼 Prince Mehta – Developer Portfolio
+# 💼 Prince Mehta – Developer Portfolio
 
-🔗 Live Website: https://princemehta.in
+🔗 **Live Website:** https://princemehta.in
 
-This is my personal developer portfolio website built using PHP, HTML, CSS, and MySQL.
-It showcases my projects, skills, achievements, certificates, and resume.
+---
 
-👨‍💻 About Me
+## 👨‍💻 About Me
 
-I am a BCA Final Year Student and an aspiring Full Stack Developer.
-I enjoy building web applications and learning modern technologies like Java, PHP, AWS, and Data Structures.
+I am a **BCA Final Year Student** and an aspiring **Full Stack Developer**.
+I enjoy building scalable web applications and continuously learning modern technologies like **Java, PHP, AWS, and Data Structures**.
 
-🚀 Features
+---
 
-Home section with profile and skills
+## 🚀 Features
 
-Projects section to showcase my work
+* 🏠 Home section with profile and skills
+* 💻 Projects section to showcase work
+* 📊 Skills with animated progress bars
+* 🏆 Achievements section
+* 📜 Certificates section with download option
+* 📄 Resume download
+* 📬 Contact form connected to MySQL database
+* 🔐 Admin panel to view and manage messages
 
-Skills with progress bars
+---
 
-Achievements section
+## 🛠️ Tech Stack
 
-Certificates section with download option
+### 🔹 Frontend
 
-Resume download
+* HTML
+* CSS
+* JavaScript
 
-Contact form connected to MySQL database
+### 🔹 Backend
 
-Admin panel to view and delete messages
+* PHP
 
-🛠 Technologies Used
+### 🔹 Database
 
-Frontend: HTML, CSS, JavaScript
+* MySQL
 
-Backend: PHP
+### 🔹 Tools
 
-Database: MySQL
+* VS Code
+* XAMPP
 
-Tools: VS Code, XAMPP
+---
 
-📂 Project Structure
+## 📂 Project Structure
+
+```
 portfolio/
 │
 ├── index.php
@@ -63,50 +74,61 @@ portfolio/
 │   └── profile.jpg
 │
 └── certificates/
-⚙️ How to Run the Project
+```
 
-Install XAMPP or any local server (Apache + MySQL).
+---
 
-Copy the project folder into:
+## ⚙️ How to Run Locally
 
-C:/xampp/htdocs/
+1. Install **XAMPP** (Apache + MySQL)
+2. Copy the project folder to:
 
-Start Apache and MySQL from the XAMPP control panel.
+   ```
+   C:/xampp/htdocs/
+   ```
+3. Start **Apache** and **MySQL**
+4. Open phpMyAdmin:
 
-Open phpMyAdmin in your browser:
+   ```
+   http://localhost/phpmyadmin
+   ```
+5. Create database:
 
-http://localhost/phpmyadmin
+   ```
+   portfolio
+   ```
+6. Create table `contact`:
 
-Create a database named:
+| Field   | Type                              |
+| ------- | --------------------------------- |
+| id      | INT (Primary Key, Auto Increment) |
+| name    | VARCHAR(100)                      |
+| email   | VARCHAR(100)                      |
+| message | TEXT                              |
 
-portfolio
+7. Run project:
 
-Create a table called contact with these fields:
+   ```
+   http://localhost/portfolio
+   ```
 
-Field	Type
-id	INT (Auto Increment, Primary Key)
-name	VARCHAR(100)
-email	VARCHAR(100)
-message	TEXT
+---
 
-Run the project in your browser:
-
-http://localhost/portfolio
-📬 Contact
+## 📬 Contact
 
 📍 Pune, Maharashtra, India
-📧 princemehta592@gmail.com
-
+📧 [princemehta592@gmail.com](mailto:princemehta592@gmail.com)
 🌐 https://princemehta.in
 
-🌐 Future Improvements
+---
 
-Add live project demos
+## 🌟 Future Improvements
 
-Improve UI animations
+* 🚀 Add live project demos
+* 🎨 Improve UI/UX animations
+* 📱 Enhance mobile responsiveness
+* ⚡ Optimize performance & deployment
 
-Add responsive mobile design
+---
 
-Enhance deployment & performance
-
-⭐ If you like this project, feel free to star the repository
+⭐ **If you like this project, feel free to star the repository!**
