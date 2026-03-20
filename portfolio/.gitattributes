@@ -1,0 +1,4 @@
+* linguist-vendored
+*.php linguist-detectable=true
+*.css linguist-detectable=true
+*.hack linguist-detectable=false
